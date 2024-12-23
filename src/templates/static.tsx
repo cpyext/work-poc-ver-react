@@ -196,8 +196,8 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
       {/* Left Section: Image */}
       <div className="w-full md:w-1/2">
         <img
-          src="your_image_url_here"
-          alt="Running outdoors"
+          src="https://ied.eu/wp-content/uploads/2023/11/youth-workers-youth-empowerment.jpg"
+          alt=""
           className="rounded-lg shadow-md"
         />
       </div>
@@ -282,8 +282,8 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* Story 1 */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <img
-            src="your_image_url_1_here"
-            alt="Exercise"
+            src="https://www.saudiarabiavisa.net/images/Saudi_Arabia_Visa_Services_Walk_Run_Event.jpg"
+            alt=""
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -302,8 +302,8 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* Story 2 */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <img
-            src="your_image_url_2_here"
-            alt="Medical Advances"
+            src="https://www.maersk.com/~/media_sc9/maersk/insights/resilience/2023/01/resilient-supply-1024x576.jpg?w=877&hash=EBCFD96D04B3A53944C8448AEF697FFA"
+            alt=""
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -322,8 +322,8 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* Story 3 */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <img
-            src="your_image_url_3_here"
-            alt="Wellbeing"
+            src="https://img.freepik.com/premium-photo/young-slim-woman-brunette-sport-clothes-running-drinking-water-forest-golden-hour-sunrise-time-health-wellness-fitness-lifestyle_72389-3684.jpg?w=2000"
+            alt=""
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -373,13 +373,13 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* First Card */}
         <div className="border border-green-400 rounded-lg overflow-hidden shadow-md">
           <img
-            src="your_image_url_here"
+            src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=B_77s3FpmfdagGPNw_bcKw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=213.52942&pitch=0&thumbfov=100"
             alt="Kansas City"
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
             <h3 className="text-lg font-bold text-green-600 flex items-center mb-2">
-              <span className="material-icons text-green-600 mr-2">place</span>
+              <span className="material-icons text-green-600 mr-2"></span>
               Kansas City, Kansas
             </h3>
             <p className="text-gray-600 mb-4">
@@ -400,7 +400,7 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
           />
           <div className="p-4">
             <h3 className="text-lg font-bold text-green-600 flex items-center mb-2">
-              <span className="material-icons text-green-600 mr-2">place</span>
+              <span className="material-icons text-green-600 mr-2"></span>
               Kansas City, Kansas
             </h3>
             <p className="text-gray-600 mb-4">
@@ -421,7 +421,7 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
           />
           <div className="p-4">
             <h3 className="text-lg font-bold text-green-600 flex items-center mb-2">
-              <span className="material-icons text-green-600 mr-2">place</span>
+              <span className="material-icons text-green-600 mr-2"></span>
               Kansas City, Kansas
             </h3>
             <p className="text-gray-600 mb-4">
