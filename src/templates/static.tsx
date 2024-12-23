@@ -288,9 +288,9 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
             "Bariatrics",
           ].map((service, index) => (
             <div key={index} className="flex items-center">
-              <span className="text-blue-600 font-bold mr-2">|</span>
+              <span className="text-blue-600 font-bold mr-2 flex-2">|</span>
               <span className="text-gray-800 flex-1">{service}</span>
-              <span className="text-blue-600 text-lg font-bold">&gt;</span>
+              <span className="text-blue-600 text-lg font-bold flex-1">&gt;</span>
             </div>
           ))}
         </div>
