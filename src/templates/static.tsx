@@ -95,6 +95,25 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {/* Menu Section Main which includes Logo, Search Bar and SignIn tab */}
 
 <div className="flex items-center justify-between px-4 py-2 bg-white border-b border-gray-300">
@@ -138,7 +157,54 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
      
      
      
-     
+     {/* Help Section - Top level  */}
+    <div className="text-center py-10 bg-white">
+      <h2 className="text-4xl font-bold text-green-600 mb-8">
+        How May We Help You?
+      </h2>
+      <div className="flex flex-wrap justify-center gap-6">
+       
+        <div className="flex flex-col items-center">
+          <img
+            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRFD3VZiMtXMZxDQmxaZngfjRxk78u6X3PfUnEpJ10Sxc7YUrwD" 
+            alt="Find a Doctor"
+            className="rounded-full w-24 h-24 mb-4 object-cover"/>
+          <p className="text-lg font-medium text-gray-700">Find a Doctor</p>
+        </div>
+       
+        <div className="flex flex-col items-center">
+          <img
+            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZ-7HcpvbrpW0mz1WkmjWdKDHFx1F5Zaf4jZlhbZ1xzArZ80s-"
+            className="rounded-full w-24 h-24 mb-4 object-cover"/>
+          <p className="text-lg font-medium text-gray-700">Urgent Care</p>
+        </div>
+       
+        <div className="flex flex-col items-center">
+          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYjefMIXo3fJJG8eIWMFfLj0E5VMIgGVQtzaC8i5cfVLBkqmy1"
+            className="rounded-full w-24 h-24 mb-4 object-cover"/>
+          <p className="text-lg font-medium text-gray-700">Location</p>
+        </div>
+       
+        <div className="flex flex-col items-center">
+          <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDhzOKGWJGyVqUscHRcsrFeJDKQI9f0u4fBy-yJFYjK2OgCohQ"
+            className="rounded-full w-24 h-24 mb-4 object-cover"/>
+          <p className="text-lg font-medium text-gray-700">Billing & Costing</p>
+        </div>
+        
+        <div className="flex flex-col items-center">
+          <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRgbZCuWxhhvDcW7BmUglPv6AmxSMga0e1rMlM-YvK4lLjRDwev" 
+            className="rounded-full w-24 h-24 mb-4 object-cover" />
+          <p className="text-lg font-medium text-gray-700">Contact Us</p>
+        </div>
+       
+        <div className="flex flex-col items-center">
+          <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ5xGGGw5UKPM5RS_BW9CrCt_n8LcI-K7UW8akvfAEcgi2KFFK_" 
+            className="rounded-full w-24 h-24 mb-4 object-cover"/>
+          <p className="text-lg font-medium text-gray-700">Career</p>
+        </div>
+      </div>
+    </div>
+  );
      
      
      
