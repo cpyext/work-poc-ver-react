@@ -230,7 +230,7 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         </div>
 
         {/* Button */}
-        <div className="mt-6">
+        <div className="mt-6 flex justify-center">
           <button className="px-6 py-3 bg-yellow-500 text-white font-semibold rounded-full shadow-md hover:bg-yellow-600">
             See all Health Services
           </button>
@@ -347,8 +347,117 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         </button>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+     
       
-      
+      {/* Awards & Recognition Section  */}
+      <div className="p-8 bg-white">
+      <h2 className="text-3xl font-bold text-green-600 mb-6">Awards & Recognitions</h2>
+      <div className="border border-green-600 rounded-md p-6 bg-yellow-50 flex justify-between">
+        <div className="grid grid-cols-2 gap-6 w-full">
+          
+          <div className="flex items-center space-x-4">
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+            <p className="text-blue-700 text-sm font-medium text-center">
+              2024 <br></br>Heathgrades America’s 100 <br></br>Best Hospitals
+            </p>
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+          </div>
+          <div className="flex items-center space-x-4">
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+            <p className="text-blue-700 text-sm font-medium text-center">
+            2024 <br></br>Heathgrades America’s 100 <br></br>Best Hospitals
+            </p>
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+          </div>
+          <div className="flex items-center space-x-4">
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+            <p className="text-blue-700 text-sm font-medium text-center">
+            2024 <br></br>Heathgrades America’s 100 <br></br>Best Hospitals
+            </p>
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+          </div>
+          <div className="flex items-center space-x-4">
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+            <p className="text-blue-700 text-sm font-medium text-center">
+            2024 <br></br>Heathgrades America’s 100 <br></br>Best Hospitals
+            </p>
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+          </div>
+          <div className="flex items-center space-x-4">
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+            <p className="text-blue-700 text-sm font-medium text-center">
+            2024 <br></br>Heathgrades America’s 100 <br></br>Best Hospitals
+            </p>
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+          </div>
+          <div className="flex items-center space-x-4">
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+            <p className="text-blue-700 text-sm font-medium text-center">
+            2024 <br></br>Heathgrades America’s 100 <br></br>Best Hospitals
+            </p>
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK50YZ0mVG6qNRQre4dV6NU9rwMRUHYtCQkwpH097bvX6xqK6Q"
+              alt="Award Icon"
+              className="w-12 h-12"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
       
       
       
@@ -379,13 +488,13 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
           />
           <div className="p-4">
             <h3 className="text-lg font-bold text-green-600 flex items-center mb-2">
-              <span className="material-icons text-green-600 mr-2"></span>
+              {/* <span className="material-icons text-green-600 mr-2"></span> */}
               Kansas City, Kansas
             </h3>
             <p className="text-gray-600 mb-4">
               1821 Shawnee Mission Parkway, Overland Park, KS 66208
             </p>
-            <div className="flex justify-end">
+            <div className="flex justify-center">
               <button className="text-green-600 text-lg font-bold">&gt;</button>
             </div>
           </div>
@@ -394,19 +503,19 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* Second Card */}
         <div className="border border-green-400 rounded-lg overflow-hidden shadow-md">
           <img
-            src="your_image_url_here"
-            alt="Kansas City"
+            src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=B_77s3FpmfdagGPNw_bcKw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=213.52942&pitch=0&thumbfov=100"
+            alt=""
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
             <h3 className="text-lg font-bold text-green-600 flex items-center mb-2">
-              <span className="material-icons text-green-600 mr-2"></span>
+              {/* <span className="material-icons text-green-600 mr-2"></span> */}
               Kansas City, Kansas
             </h3>
             <p className="text-gray-600 mb-4">
               1821 Shawnee Mission Parkway, Overland Park, KS 66208
             </p>
-            <div className="flex justify-end">
+            <div className="flex justify-center">
               <button className="text-green-600 text-lg font-bold">&gt;</button>
             </div>
           </div>
@@ -415,19 +524,19 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* Third Card */}
         <div className="border border-green-400 rounded-lg overflow-hidden shadow-md">
           <img
-            src="your_image_url_here"
-            alt="Kansas City"
+            src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=B_77s3FpmfdagGPNw_bcKw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=213.52942&pitch=0&thumbfov=100"
+            alt=""
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
             <h3 className="text-lg font-bold text-green-600 flex items-center mb-2">
-              <span className="material-icons text-green-600 mr-2"></span>
+              {/* <span className="material-icons text-green-600 mr-2"></span> */}
               Kansas City, Kansas
             </h3>
             <p className="text-gray-600 mb-4">
               1821 Shawnee Mission Parkway, Overland Park, KS 66208
             </p>
-            <div className="flex justify-end">
+            <div className="flex justify-center">
               <button className="text-green-600 text-lg font-bold">&gt;</button>
             </div>
           </div>
@@ -518,47 +627,82 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
 
         {/* Column 4: Download App */}
         <div>
-          <h3 className="text-lg font-bold mb-4 text-yellow-600">Download Our App</h3>
+        <div className="border border-yellow-400 rounded-md p-6 shadow-sm">
+          <h3 className="text-lg font-bold mb-4 text-black-600 flex justify-center">Download Our App</h3>
           <p className="mb-4 text-sm text-gray-700">
             Download Our ECLINIC App To Book Your Appointments At Your Finger Tips
           </p>
           <div className="space-y-4">
-            <button className="flex items-center space-x-2 px-4 py-2 border rounded-md hover:bg-gray-100">
+            <button className="space-x-2 px-4 py-2 rounded-md hover:bg-white-100 flex justify-center border-yellow-400" >
+            
               <img
-                src="google_play_icon_url"
-                alt="Google Play"
+                src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRl3QI4ohD8sJVAf4JZDPH2uAGy-ckbgUis7hYAVBrBKd-ElrVF"
+                alt=""
                 className="h-6"
               />
-              <span>Get It On Google Play</span>
+              <span>Get It On Android Play</span>
             </button>
-            <button className="flex items-center space-x-2 px-4 py-2 border rounded-md hover:bg-gray-100">
+            <button className="flex items-center space-x-2 px-4 py-2 border-green-400 rounded-md hover:bg-white-100">
               <img
-                src="google_play_icon_url"
-                alt="Google Play"
+                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRso2wT_uzcdMkmOOUmGrW5Q1OZ0FBVx_N7tT1vY4MmvNE_GJhB"
+                alt=""
                 className="h-6"
               />
-              <span>Get It On Google Play</span>
+              <span>Get It On App Store</span>
             </button>
           </div>
-          <button className="mt-6 w-full bg-blue-600 text-white font-bold py-2 rounded-md hover:bg-blue-700">
+          </div>
+          <button className="mt-6 w-full bg-blue-600 text-white font-bold py-2 rounded-md hover:bg-blue-700 flex justify-center">
             Emergency 911
           </button>
         </div>
       </div>
 
+
+
+
+
+
+
+
+
+
+
       {/* Footer Bottom */}
+
       <div className="mt-8 border-t border-gray-300 pt-4 flex flex-col md:flex-row justify-between items-center">
-        {/* Social Icons */}
-        <div className="flex space-x-4">
-          <span className="text-2xl">✖</span>
-          <span className="text-2xl">🔗</span>
-          <span className="text-2xl">📸</span>
-          <span className="text-2xl">▶</span>
-        </div>
-        {/* Copyright */}
-        <p className="text-sm text-gray-600 text-center mt-4 md:mt-0">
+        
+        {/* 1. Social Icons */}
+        <div className="flex space-x-4 justify-center">
+  <img
+    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKSpxGPQRXBlJKuB6eUAiUIdUfYn0-0qpC3YViSLodrOEqu7jm"
+    alt="Twitter"
+    className="h-8 w-8"
+  />
+  <img
+    src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQIj_C3NVrXShqe_1tJ9sjeMh0WKivncC--GVIIfmsuj5om7rkp"
+    alt="Facebook"
+    className="h-8 w-8"
+  />
+  <img
+    src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTp2_Tg4O7AgTu-h5snEiLNWC_x4NKu3rpnN5B56qR-IDqyq4or"
+    alt="Instagram"
+    className="h-8 w-8"
+  />
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQMDIIbF7CTcviGN_hikNJXt2hmExeC6ZMMwGZJWvOPB4dRHSy"
+    alt="YouTube"
+    className="h-8 w-8"
+  />
+</div>
+       
+        {/* 2. Copyright */}
+        <p className="text-sm text-green-600 text-center mt-4 md:mt-0">
           Copyright © 2024 VeridianInfotech. All Rights Reserved.
         </p>
+
+
+
       </div>
     </footer>
       
