@@ -84,133 +84,80 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
   return (
     <>
 
-<div className="flex items-center justify-between px-4 py-2 pl-36 pr-36 bg-white border-b border-gray-300">
+{/* Toplevel Color bars */}
+<div className="flex h-2 w-full">
+  <div className="w-1/3 f-full bg-[#00A86B]"></div>
+  <div className="w-1/3 f-full bg-[#FFFF00]"></div>
+  <div className="w-1/3 f-full bg-[#0000FF]"></div>
+</div>
+
+
+
+
+
+{/* Menu Section Main which includes Logo, Search Bar and SignIn tab */}
+
+<div className="flex items-center justify-between px-4 py-2 bg-white border-b border-gray-300">
+      
       {/* Menu Section */}
       <div className="flex items-center">
-        <span className="text-2xl cursor-pointer">☰</span> Menu
+        <span className="text-2xl cursor-pointer">☰ Menu</span> {/* Hamburger Menu Icon */}
         <span className="mx-4 text-gray-400">|</span>
       </div>
 
+     
       {/* Logo Section */}
       <div className="flex items-center">
         <img
-          // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAeOGvhSU7f3yqzCP0VZAo_-yVKvYRgfTpG7zbtvZND-RWbz6-WQ6_rxA0aavOfYJZnHU&usqp=CAU"
-          // alt="Veridian Health Logo"
-          className="h-6 mr-2"
+          src="https://a.mktgcdn.com/p/jU4pRun_1fPOYlRO3E-du8KGahPZZgwyNYl7dDT3lKM/538x194.png"
+          alt="Veridian Health Logo"
+          className="h-14 mr-4"
         />
-         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAeOGvhSU7f3yqzCP0VZAo_-yVKvYRgfTpG7zbtvZND-RWbz6-WQ6_rxA0aavOfYJZnHU&usqp=CAU" alt="VH Logo" className="h-10 w-auto" />
-        <span className="text-lg font-bold text-gray-800">Veridian Health</span>
+        <span className="text-lg font-bold text-gray-800"></span>
       </div>
 
+     
       {/* Search Section */}
-      <div className="flex items-center flex: 0 1 0%; mx-4">
+      <div className="flex items-center flex-1 mx-4">
         <input
           type="text"
           placeholder="Veridian AI Search"
-          className="flex-basic px-4 py-2 text-sm border border-gray-300 rounded-full focus:outline-none focus:ring focus:ring-blue-300"
+          className="flex-auto px-4 py-2 text-sm border border-gray-300 rounded-full focus:outline-none focus:ring focus:ring-blue-300"
         />
-        <button className=" px-3 py-2 ml-[-35px] text-lg text-gray-500">
-          🔍
-        </button>
+        
       </div>
 
+     
       {/* Sign-In Section */}
       <div className="flex items-center">
         <span className="text-xl">📂</span> {/* Folder Icon */}
         <span className="ml-2 text-gray-800">MyRecords SignIn</span>
       </div>
     </div>
-
-
-
-{/* Hero Section with Image */}
-<div className="flex flex-col items-center p-6">
-      <h1 className="text-6xl text-green-500 mb-16">How May We Help You?</h1>
-      <div className="grid grid-cols-2 md:grid-cols-6 gap-6">
-        <div className="flex flex-col items-center">
-          <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden shadow-md">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyM0CPhh1BKV54q45ty0CdmsXTkhOjhp-GrpWseztwQglx6bwrCXCLfBv9DQ78mYHSt5A&usqp=CAU"
-              alt="Find a Doctor"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <p className="text-center text-lg font-medium mt-4">Find a Doctor</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden shadow-md">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyM0CPhh1BKV54q45ty0CdmsXTkhOjhp-GrpWseztwQglx6bwrCXCLfBv9DQ78mYHSt5A&usqp=CAU"
-              alt="Urgent Care"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <p className="text-center text-lg font-medium mt-4">Urgent Care</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden shadow-md">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyM0CPhh1BKV54q45ty0CdmsXTkhOjhp-GrpWseztwQglx6bwrCXCLfBv9DQ78mYHSt5A&usqp=CAU"
-              alt="Location"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <p className="text-center text-lg font-medium mt-4">Location</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden shadow-md">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyM0CPhh1BKV54q45ty0CdmsXTkhOjhp-GrpWseztwQglx6bwrCXCLfBv9DQ78mYHSt5A&usqp=CAU"
-              alt="Billing & Costing"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <p className="text-center text-lg font-medium mt-4">Billing & Costing</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden shadow-md">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyM0CPhh1BKV54q45ty0CdmsXTkhOjhp-GrpWseztwQglx6bwrCXCLfBv9DQ78mYHSt5A&usqp=CAU"
-              alt="Contact Us"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <p className="text-center text-lg font-medium mt-4">Contact Us</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden shadow-md">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyM0CPhh1BKV54q45ty0CdmsXTkhOjhp-GrpWseztwQglx6bwrCXCLfBv9DQ78mYHSt5A&usqp=CAU"
-              alt="Career"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <p className="text-center text-lg font-medium mt-4">Career</p>
-        </div>
-      </div>
-    </div>
-
-
-
-
-{/* Find care at Veridian Health Section */}
-
-      <div className="flex flex-col items-left px-4 py-8 pl-16 bg-white">
+     
+     
+     
+     
+     
+     
+     
+     
+    <div className="flex flex-col items-center px-4 py-8 bg-white">
       {/* Title Section */}
-      <h1 className="text-2xl font-bold text-yellow-600 mb-4 pl-16">
+      <h1 className="text-2xl font-bold text-yellow-600 mb-4">
         Find care at Veridian Health
       </h1>
-      <p className="text-left text-gray-600 mb-4 pl-16 pr-96">
+      <p className="text-center text-gray-600 mb-4">
         Veridian Health Hospital boasts the most experienced doctors and
         state-of-the-art technology, ensuring top-notch medical care and
         advanced treatments for all patients.
       </p>
       <p className="text-center text-gray-600 mb-6">
-        {/* Please fill in at least two of the fields below and hit '>'. */}
+        Please fill in at least two of the fields below and hit ''.
       </p>
 
       {/* Input Fields Section */}
-      <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 pl-16 pr-96">
+      <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
         <input
           type="text"
           placeholder="Speciality, Doctor..."
@@ -232,17 +179,24 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         </button>
       </div>
     </div>
-
-
-
-
-
-{/* Section of Health Services*/}
-<div className="flex flex-col md:flex-row items-center px-4 py-8 bg-white space-y-6 md:space-y-0 md:space-x-6">
+     
+     
+     
+     
+     
+     
+      
+      
+      
+      
+      
+      
+      
+    <div className="flex flex-col md:flex-row items-center px-4 py-8 bg-white space-y-6 md:space-y-0 md:space-x-6">
       {/* Left Section: Image */}
       <div className="w-full md:w-1/2">
         <img
-          src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-free-image-free-photo.jpg?w=600&quality=80"
+          src="your_image_url_here"
           alt="Running outdoors"
           className="rounded-lg shadow-md"
         />
@@ -283,15 +237,22 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         </div>
       </div>
     </div>
-
-
-
-
-
-
-      {/* Featured Stories & Topics */}
-
-      <div className="bg-gray-100 px-6 py-12">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <div className="bg-gray-100 px-6 py-12">
       {/* Title */}
       <h2 className="text-3xl font-bold text-green-600 text-center mb-6">
         Featured Stories & Topics
@@ -321,7 +282,7 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* Story 1 */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl5qPDCzY9DY5xzTFOppRyhFXof823GMnAmQ&s"
+            src="your_image_url_1_here"
             alt="Exercise"
             className="w-full h-48 object-cover"
           />
@@ -341,7 +302,7 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* Story 2 */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl5qPDCzY9DY5xzTFOppRyhFXof823GMnAmQ&s"
+            src="your_image_url_2_here"
             alt="Medical Advances"
             className="w-full h-48 object-cover"
           />
@@ -361,7 +322,7 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* Story 3 */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl5qPDCzY9DY5xzTFOppRyhFXof823GMnAmQ&s"
+            src="your_image_url_3_here"
             alt="Wellbeing"
             className="w-full h-48 object-cover"
           />
@@ -386,51 +347,22 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         </button>
       </div>
     </div>
-
-
-
-
-    {/* Awards & Recognitions */}
-      <div className="bg-white px-6 py-12">
-      {/* Title */}
-      <h2 className="text-3xl font-bold text-green-600 text-center mb-8">
-        Awards & Recognitions
-      </h2>
-
-      {/* Awards Section */}
-      <div className="bg-green-50 border-t-4 border-green-600 rounded-lg p-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {/* Award Card */}
-          {Array(8)
-            .fill(0)
-            .map((_, index) => (
-              <div
-                key={index}
-                className="flex flex-col items-center text-center space-y-2"
-              >
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfzXcNPrctw4DczNsuZT2faURP1un9qm1jVkNzaniL3d2MfrCPbzbrjykkPlWYZbxrUpI&usqp=CAU"
-                  alt="Award Laurel"
-                  className="w-12 h-12"
-                />
-                <p className="text-blue-600 font-bold">2024</p>
-                <p className="text-gray-700">
-                  Heathgrades America's 100 Best Hospitals
-                </p>
-              </div>
-            ))}
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-
-
-      {/* Nearby Location*/}
-      <div className="bg-white px-6 py-12">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <div className="bg-white px-6 py-12">
       {/* Title */}
       <h2 className="text-3xl font-bold text-blue-600 text-center mb-8">
         Nearby Locations
@@ -441,13 +373,13 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* First Card */}
         <div className="border border-green-400 rounded-lg overflow-hidden shadow-md">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYMXUk9gt8w1VklUQTVdc6P1RZ4YslgYMQI-a-vCyIttcOSgEr4oiEaDArluD62coxOw&usqp=CAU"
+            src="your_image_url_here"
             alt="Kansas City"
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
             <h3 className="text-lg font-bold text-green-600 flex items-center mb-2">
-              <span className="material-icons text-green-600 mr-2"></span>
+              <span className="material-icons text-green-600 mr-2">place</span>
               Kansas City, Kansas
             </h3>
             <p className="text-gray-600 mb-4">
@@ -462,13 +394,13 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* Second Card */}
         <div className="border border-green-400 rounded-lg overflow-hidden shadow-md">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYMXUk9gt8w1VklUQTVdc6P1RZ4YslgYMQI-a-vCyIttcOSgEr4oiEaDArluD62coxOw&usqp=CAU"
+            src="your_image_url_here"
             alt="Kansas City"
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
             <h3 className="text-lg font-bold text-green-600 flex items-center mb-2">
-              <span className="material-icons text-green-600 mr-2"></span>
+              <span className="material-icons text-green-600 mr-2">place</span>
               Kansas City, Kansas
             </h3>
             <p className="text-gray-600 mb-4">
@@ -483,13 +415,13 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         {/* Third Card */}
         <div className="border border-green-400 rounded-lg overflow-hidden shadow-md">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYMXUk9gt8w1VklUQTVdc6P1RZ4YslgYMQI-a-vCyIttcOSgEr4oiEaDArluD62coxOw&usqp=CAU"
+            src="your_image_url_here"
             alt="Kansas City"
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
             <h3 className="text-lg font-bold text-green-600 flex items-center mb-2">
-              <span className="material-icons text-green-600 mr-2"></span>
+              <span className="material-icons text-green-600 mr-2">place</span>
               Kansas City, Kansas
             </h3>
             <p className="text-gray-600 mb-4">
@@ -512,12 +444,24 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         </a>
       </div>
     </div>
-
-
-
-
-      {/* Footer */}
-      (
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     <footer className="bg-gray-100 px-8 py-12">
       {/* Footer Columns */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -581,7 +525,7 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
           <div className="space-y-4">
             <button className="flex items-center space-x-2 px-4 py-2 border rounded-md hover:bg-gray-100">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW4Jp7-YQ_GoTCNyzbu9th5tbw9Hc7Dt99WHgfxRnopLQPM3CGpWLyB_9s1_ZEDxTMAdo&usqp=CAU"
+                src="google_play_icon_url"
                 alt="Google Play"
                 className="h-6"
               />
@@ -589,7 +533,7 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
             </button>
             <button className="flex items-center space-x-2 px-4 py-2 border rounded-md hover:bg-gray-100">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW4Jp7-YQ_GoTCNyzbu9th5tbw9Hc7Dt99WHgfxRnopLQPM3CGpWLyB_9s1_ZEDxTMAdo&usqp=CAU"
+                src="google_play_icon_url"
                 alt="Google Play"
                 className="h-6"
               />
@@ -617,6 +561,7 @@ const Static: Template<TemplateRenderProps> = ({ document }) => {
         </p>
       </div>
     </footer>
+      
 
 
     </>
